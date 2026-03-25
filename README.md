@@ -1,9 +1,9 @@
 # Design-and-Development-of-a-Planar-Transformer
-## 📄 Project Report
-[View Full Report](./li_dab.pdf)
-This project presents the design and validation of a 200W planar transformer for a Dual Active Bridge (DAB) converter operating at 50 kHz.
 
-The work focuses on achieving controlled power transfer through engineered leakage inductance while maintaining high magnetic coupling and low losses.
+## Project Report
+[View Full Report](./li_dab.pdf)
+
+This project presents the design and validation of a 200W planar transformer for a Dual Active Bridge (DAB) converter operating at 50 kHz. The objective is to achieve controlled power transfer using leakage inductance while maintaining high magnetic coupling and low losses.
 
 ## Project Overview
 
@@ -20,7 +20,7 @@ The work focuses on achieving controlled power transfer through engineered leaka
 - Turns Ratio: 2.24  
 - Core Material: N87 Ferrite (E64/10/50)  
 
-## Key Design Objectives
+## Design Objectives
 
 - Controlled power transfer using leakage inductance  
 - High magnetic coupling  
@@ -29,23 +29,23 @@ The work focuses on achieving controlled power transfer through engineered leaka
 
 ## Validation and Analysis
 
-The design was validated using multiple simulation tools:
+The design was validated using different simulation tools:
 
-- **Maxwell 3D** → Magnetic flux distribution analysis  
-- **Icepak** → Thermal performance (Max temperature ≈ 59°C)  
-- **Simplorer** → System-level DAB converter validation  
+- Maxwell 3D for magnetic field analysis  
+- Icepak for thermal analysis (maximum temperature around 59°C)  
+- Simplorer for system-level validation of the DAB converter  
 
 ## Results
 
 - Achieved 200W power transfer  
-- Output validated at ~107V and ~1.87A  
-- Transformer loss ≈ 3.6 W  
-- Estimated efficiency ≈ 98%  
+- Output validated at approximately 107V and 1.87A  
+- Transformer loss around 3.6 W  
+- Estimated efficiency close to 98%  
 
 ## Key Insight
 
-The leakage inductance (27.2 µH) is intentionally designed to control power transfer in the DAB converter, following the phase-shift power transfer principle.
+The leakage inductance (27.2 µH) is intentionally designed to control power transfer in the DAB converter using phase-shift control.
 
 ## Files
 
-- Full report available in this repository  
+- Full report available in this repository
