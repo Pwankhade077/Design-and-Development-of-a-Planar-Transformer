@@ -1,5 +1,6 @@
 # Design-and-Development-of-a-Planar-Transformer
-
+## 📄 Project Report
+[View Full Report](./li_dab.pdf)
 This project presents the design and validation of a 200W planar transformer for a Dual Active Bridge (DAB) converter operating at 50 kHz.
 
 The work focuses on achieving controlled power transfer through engineered leakage inductance while maintaining high magnetic coupling and low losses.
