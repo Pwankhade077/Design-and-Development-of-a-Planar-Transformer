@@ -44,7 +44,7 @@ The design was validated using different simulation tools:
 
 ## Key Insight
 
-The leakage inductance (27.2 µH) is intentionally designed to control power transfer in the DAB converter using phase-shift control.
+The leakage inductance (27.2 µH) is designed to control power transfer in the DAB converter using phase-shift control.
 
 ## Files
 
